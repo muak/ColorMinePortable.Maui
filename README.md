@@ -8,7 +8,7 @@ This is the extensions that it made ColorMinePortable(https://github.com/muak/Co
 Install-Package ColorMinePortable.Maui
 ```
 
-## Xamarin Conversion
+## Maui Conversion
 
 ```csharp
 var xcolor = Colors.Red;

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <UseMaui>true</UseMaui>
+    <Configurations>Release;Debug</Configurations>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DocumentationFile>bin\Release\net7.0\ColorMinePortable.Maui.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ColorMinePortable" Version="2.0.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\nuget\AzurePipelines.nuspec">
+      <Link>AzurePipelines.nuspec</Link>
+    </None>
+  </ItemGroup>
+</Project>

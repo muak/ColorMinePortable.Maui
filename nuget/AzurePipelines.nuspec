@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>ColorMinePortable.Maui</id>
+        <version>2.0.0</version>
+        <title>ColorMinePortable for Maui</title>
+        <authors>kamu</authors>
+        <owners>kamu</owners>
+        <projectUrl>https://github.com/muak/ColorMinePortable.Maui</projectUrl>
+        <licenseUrl>https://github.com/muak/ColorMinePortable.Maui/blob/master/LICENSE.txt</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Color conversion netstandard class library</description>
+        <summary>
+            ## Supported Color Models:
+            * CMY
+            * CMYK
+            * HSL
+            * HSB
+            * HSV
+            * CIE L*AB
+            * Hunter LAB
+            * LCH
+            * LUV
+            * sRGB
+            * XYZ
+            * YXY
+            * Munsell
+            * Hex
+        </summary>
+
+        <releaseNotes>
+Supported Maui
+        </releaseNotes>
+        <tags>Maui Color Conversion Munsell CMYK HSL HSB HSV L*AB LCH LUV sRGB XYZ YXY HEX</tags>
+        <language>en-US</language>
+        <dependencies>            
+           <dependency id="ColorMinePortable" version="2.0.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- NET7.0 -->
+        <file src="artifacts/net7.0/ColorMinePortable.Maui.dll" target="lib/net7.0" />
+        <file src="artifacts/net7.0/ColorMinePortable.Maui.xml" target="lib/net7.0" />
+        <file src="artifacts/net7.0/ColorMinePortable.Maui.pdb" target="lib/net7.0" />
+    </files>
+</package>

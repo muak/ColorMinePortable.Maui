@@ -34,7 +34,7 @@ Supported Maui
         <tags>Maui Color Conversion Munsell CMYK HSL HSB HSV L*AB LCH LUV sRGB XYZ YXY HEX</tags>
         <language>en-US</language>
         <dependencies>            
-           <dependency id="ColorMinePortable" version="2.0.2" />
+           <dependency id="ColorMinePortable" version="2.0.4" />
         </dependencies>
     </metadata>
     <files>
